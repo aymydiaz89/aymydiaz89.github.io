@@ -1,0 +1,93 @@
+
+body {
+font-family:serif;
+font-size:Npt;
+color: black;
+background: transparent;
+
+}
+#square {
+max-width:9.37in;
+min-width:4.16in;
+margin:0 auto;
+border: 2pt solid rgb(255,255,255);
+}
+
+#education{
+  line-hight:0.03in;
+}
+
+.first-list {
+  display: inline;
+}
+address{
+  padding-bottom: 0.16in;
+}
+
+nav {
+  text-align: center;
+  border-top: 2pt solid #222;
+  border-bottom: 2pt solid #222;
+  margin-left: 0.33in;
+  margin-right: 0.33in;
+}
+
+section{
+  border-bottom: 2pt solid #222;
+  margin: 0.33in;
+}
+
+img {
+  border:1pt solid #999;
+  width: 220pt;
+  height: 230pt;
+}
+
+a {
+  color:rgb(68,168,182);
+  text-decoration: none;
+}
+
+a[href^"http"]:after{
+  content: " ("attr(href)") ";
+}
+
+header{
+text-align:center;
+}
+
+h1{
+  color: rgb(68,168,182);
+}
+
+h2 {
+color:rgb(68,168,182);
+}
+
+h1,h2 {
+  font-family: "Roboto+Slab",serif;
+
+}
+
+article {
+  padding-right: 3.12in;
+}
+
+article p{
+  margin-top: -0.16in;
+}
+.date {
+  padding-left: 0.45in;
+  font-size: 0.14in;
+  margin-bottom: 0.1in;
+}
+
+footer {
+  margin-top: -0.16in;
+  padding-bottom: 0.16in;
+  padding-left: 0.71in;
+}
+
+#umd {
+  padding-top: 0.5in;
+}
