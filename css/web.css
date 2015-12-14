@@ -1,22 +1,43 @@
 @import url(https://fonts.googleapis.com/css?family=Lora|Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 body {
-font-family: "Lora",serif;
+font-family: 'Indie Flower', cursive;
 font-size:17px;
 color: #222;
 background-color: #F2DBA4;
-background-image: url(http://www.transparenttextures.com/patterns/arches.png);
+background-image: url(../arches.png);
 
 }
+
+#hometitle{
+  font-size:60px;
+  margin-bottom:0px;
+}
+
 #square {
 max-width:900px;
 min-width:400px;
 margin:0 auto;
 background-color: #FBF5E6;
 border: 2px solid rgb(255,255,255);
+
 }
 
-#education{
-  line-hight:3px;
+#container {
+  position: relative;
+  width: 900px;
+  height: 600px;
+}
+
+#theTarget div {
+  background-color: #fff;
+}
+#theTarget div.brazil{
+  background-position: top left;
+}
+
+#homepic {
+  border:none;
 }
 
 .first-list {
@@ -26,12 +47,47 @@ address{
   padding-bottom: 1em;
 }
 nav {
+
   text-align: center;
   border-top: 2px solid #222;
   border-bottom: 2px solid #222;
   margin-left: 2em;
   margin-right: 2em;
+  /* NAV BARS espacio entre margins de navigation margin-right:40px;
+  dividors: border-right:1px solid #222, como quitar la ultima separador
+getting rid of underline
+color: #121C36
+THE WEBSITE WHEN YOU ADD SHADOWS
+text-decoration:none;
+
+polaroid
+border
+padding: 20px 20px 70px 20px; (the effect that you cant right over)
+.polaroid{
+border
+padding
+width
 }
+img{
+border: 1px solid #ccc
+write over:
+border-radius: 5px chiquitico
+border-radius:
+}
+   */
+
+}
+nav ul{
+  list-style:none;
+}
+nav li{
+  display: inline;
+  margin-right: 2em;
+  padding: 0 20px
+
+}
+
+
 
 section{
   border-bottom: 2px solid #222;
@@ -43,6 +99,9 @@ img {
 
 }
 
+#resume-pic{
+  border-radius: 50%;
+}
 a {
   color:rgb(68,168,182);
 }
@@ -59,15 +118,17 @@ text-align:center;
 }
 
 h1{
+  text-align:center;
   color: rgb(68,168,182);
 }
+
 
 h2 {
 color:rgb(68,168,182);
 }
 
 h1,h2 {
-  font-family: "Roboto+Slab",serif;
+  font-family: 'Indie Flower', cursive;
 
 }
 
@@ -87,4 +148,39 @@ footer {
   margin-top: -1em;
   padding-bottom: 1em;
   padding-left: 4.3em;
+}
+
+#ordercontact li {
+  list-style:none;
+  display:inline;
+  margin-right:108px;
+  margin-top:200px;
+}
+
+#titleleft {
+  text-align:left:
+}
+
+#ham {
+  width:50px;
+  length: 50px;
+  position: fixed;
+  top: 50px;
+
+}
+
+.covervid-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mobile {
+  display:none;
+}
+
+#video {
+  margin-top: 50px;
 }

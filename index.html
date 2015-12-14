@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1;"/>
+<title> Aymara Diaz's resume</title>
+<link href="css/web.css" media="screen" rel="stylesheet"/>
+<link href="css/mobile.css" media="screen" rel="stylesheet"/>
+<link href="css/simple.css" media="screen" rel="stylesheet" />
+
+</head>
+
+
+
+
+<body id="bigslide">
+  <div id="square">
+  <h1 id="hometitle">
+    Aymara Diaz
+  </h1>
+  <a href="#menu" class="menu-link"><img id="ham" src="images/ham.png" alt="ham" /></a>
+    <img id="homepic" src="images/homepic.png" alt="aymara"/>
+    <p class="mobile"> Welcome to the mobile version of my website. Please click on any of the links to learn a little bit more about my work. </p> 
+
+
+<nav id="menu" class="panel" role="navigation">
+  <ul>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="visualizations.html">Visualizations</a></li>
+    <li><a href="videography.html">Videography</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/bigSlide.min.js"></script>
+<script src="js/bigSlide.js"></script>
+<script>
+$(document).ready(function() {
+    $('.menu-link').bigSlide();
+});
+</script>
+</div>
+</body>

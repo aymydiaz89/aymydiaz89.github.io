@@ -25,11 +25,7 @@ address{
 }
 
 nav {
-  text-align: center;
-  border-top: 2pt solid #222;
-  border-bottom: 2pt solid #222;
-  margin-left: 0.33in;
-  margin-right: 0.33in;
+  display:none;
 }
 
 section{
@@ -38,9 +34,7 @@ section{
 }
 
 img {
-  border:1pt solid #999;
-  width: 220pt;
-  height: 230pt;
+  display:none;
 }
 
 a {

@@ -1,0 +1,162 @@
+@media (max-width:320px) {
+
+
+body {
+
+font-size:15px;
+
+}
+
+#hometitle{
+  font-size:40px;
+  margin-bottom:0px;
+}
+
+
+#square {
+max-width:320px;
+min-width:0px;
+margin:0 auto;
+background-color: #FBF5E6;
+border: 2px solid rgb(255,255,255);
+
+}
+
+.mobile{
+  display:inline-block;
+}
+
+
+
+#theTarget div {
+  background-color: #fff;
+}
+#theTarget div.brazil{
+  background-position: top left;
+}
+
+#homepic {
+  display:none;
+}
+
+.first-list {
+  display: inline;
+}
+address{
+  padding-bottom: 1em;
+}
+nav {
+
+  text-align: center;
+  border-top: 2px solid #222;
+  border-bottom: 2px solid #222;
+  margin-left: 2em;
+  margin-right: 2em;
+  /* NAV BARS espacio entre margins de navigation margin-right:40px;
+  dividors: border-right:1px solid #222, como quitar la ultima separador
+getting rid of underline
+color: #121C36
+THE WEBSITE WHEN YOU ADD SHADOWS
+text-decoration:none;
+
+polaroid
+border
+padding: 20px 20px 70px 20px; (the effect that you cant right over)
+.polaroid{
+border
+padding
+width
+}
+img{
+border: 1px solid #ccc
+write over:
+border-radius: 5px chiquitico
+border-radius:
+}
+   */
+
+}
+nav ul{
+  list-style:none;
+}
+nav li{
+  display: inline;
+  margin-right: 2em;
+  padding: 0 20px
+
+}
+
+
+
+section{
+  border-bottom: 2px solid #222;
+  margin: 2em;
+}
+
+img {
+  border:1px solid #999;
+
+}
+
+#resume-pic{
+  display:none;
+}
+a {
+  color:rgb(68,168,182);
+}
+a:hover{
+  color:rgb(173,210,241);
+}
+
+a:visited {
+  color: rgb(223,159,67);
+}
+
+header{
+text-align:center;
+}
+
+h1{
+  text-align:center;
+  color: rgb(68,168,182);
+}
+
+
+h2 {
+color:rgb(68,168,182);
+}
+
+h1,h2 {
+  font-family: 'Indie Flower', cursive;
+
+}
+
+article {
+  padding-right: 300px;
+}
+
+article p{
+  margin-top: -1em;
+}
+.date {
+  padding-left: 2.7em;
+  font-size: 14px;
+}
+
+footer {
+  margin-top: -1em;
+  padding-bottom: 1em;
+  padding-left: 4.3em;
+}
+
+#ordercontact li {
+  list-style:none;
+  display:inline;
+  margin-right:108px;
+  margin-top:200px;
+}
+
+#titleleft {
+  text-align:left:
+}
+}
