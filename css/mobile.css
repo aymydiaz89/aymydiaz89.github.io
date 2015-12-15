@@ -45,13 +45,6 @@ address{
   padding-bottom: 1em;
 }
 
-@media mobile
-{
-  #menu, #menu *
-  {
-    display:none !important;
-  }
-}
 
 nav {
 

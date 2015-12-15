@@ -99,9 +99,6 @@ img {
 
 }
 
-#resume-pic{
-  border-radius: 50%;
-}
 a {
   color:rgb(68,168,182);
 }
@@ -166,6 +163,7 @@ footer {
   length: 50px;
   position: fixed;
   top: 50px;
+  border:none;
 
 }
 
