@@ -130,7 +130,7 @@ h1,h2 {
 }
 
 article {
-  padding-right: 300px;
+  padding-right: 20px;
 }
 
 article p{
@@ -157,4 +157,21 @@ footer {
 #titleleft {
   text-align:left:
 }
+
+.icons {
+  display: block;
+  width: 20px;
+  length:20px;
 }
+ i {
+   width: 3px;
+   length: 3px;
+ }
+ .fa {
+   width:5px;
+   length: 5px;
+ }
+
+ video {
+   height: 200px;
+ }
