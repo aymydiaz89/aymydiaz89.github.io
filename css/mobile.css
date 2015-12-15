@@ -8,7 +8,7 @@ font-size:15px;
 }
 
 #hometitle{
-  font-size:40px;
+  font-size:20px;
   margin-bottom:0px;
 }
 
@@ -26,9 +26,6 @@ border: 2px solid rgb(255,255,255);
   display:inline-block;
 }
 
-#bigslide{
-  display:none;
-}
 
 #theTarget div {
   background-color: #fff;
@@ -47,6 +44,15 @@ border: 2px solid rgb(255,255,255);
 address{
   padding-bottom: 1em;
 }
+
+@media mobile
+{
+  #menu, #menu *
+  {
+    display:none !important;
+  }
+}
+
 nav {
 
   text-align: center;
@@ -158,8 +164,4 @@ footer {
 #titleleft {
   text-align:left:
 }
-#ham {
-  display:none;
-}
-
 }
